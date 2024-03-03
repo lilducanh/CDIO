@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.iframe-container {
+    border: 1px solid #000; /* Màu viền đen */
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .iframe-container iframe {
+    width: 700;
+    height: 900;
+    border: none; /* Loại bỏ viền mặc định của iframe */
+  }
+  
